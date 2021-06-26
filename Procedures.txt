@@ -1,4 +1,4 @@
-1. Con composer: composer create-project --prefer-dist laravel/laravel "nombre"
+﻿1. Con composer: composer create-project --prefer-dist laravel/laravel "nombre"
 2. Con php artisan list   Se puede ver una lista de los comandos disponibles con artisan
 2.1  Escribiendo cualquiera de los comandos listados le podemos pasar el flag "-h" y con ello obtendremos mas claridad del que 
 hace cada comando y que dato espera.
@@ -171,7 +171,7 @@ Porque? Pues porque es un archivo que esta ignorado por defecto en git y natural
 pues este archivo contiene informacion de credenciales para acceder a la base de datos.
 Por ello si ejecutas el proyecto en otro equipo pues deberas configurar con antelacion el archivo .env antes de hacer cualquier prueba.
 En mi caso actal, uso Wamp para levantar el servidor en mi PC asi que el archivo .env es modificado como sigue:
-    DB_CONNECTION=mysql
+    DB_CONNECTION=mysql 
     DB_HOST=127.0.0.1
     DB_PORT=3306
     DB_DATABASE=larapok_development
